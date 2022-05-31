@@ -1,0 +1,47 @@
+.h1 {
+  color: white;
+  font-family: courier;
+  font-size: 200%;
+}
+.header {
+  padding: 10px;
+  text-align: center;
+  background: salmon;
+  color: white;
+  font-size: 20px;
+  font-family: courier;
+}
+.p {
+  color: black;
+  font-family: courier;
+  font-size: 90%;
+}
+.ul {
+  font-family: courier;
+  font-size: 90%;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 30%;
+  padding: 5px;
+  font-family: courier;
+}
+
+.smallcolumn {
+  float: left;
+  width: 15%;
+  padding: 5px;
+  font-family: courier;
+  margin: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
